@@ -1,0 +1,13 @@
+.btn {
+  
+  &__contact {
+    width: 200px !important;
+
+    &::before {
+      left: 15px !important;
+    }
+    &::after {
+      left: 20px !important;
+    }
+  }
+}

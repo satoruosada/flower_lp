@@ -1,0 +1,142 @@
+/* * * * * * * * *
+* utility
+* * * * * * * * */
+.u-content-wrapper {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+.u-heading {
+  font-size: 28px;
+}
+.u-text {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+/* * * * * * * * *
+* header
+* * * * * * * * */
+.header {
+  height: 355px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/header.png) 50%;
+  background-size: cover;
+
+  &__nav {
+    position: fixed;
+    z-index: 100;
+  }
+  &__logo {
+    font-size: 24px;
+  }
+  &__title {
+    padding-top: 120px;
+    font-size: 64px;
+  }
+}
+
+/* * * * * * * * *
+* concept
+* * * * * * * * */
+.concept {
+  padding: 40px 0 24px;
+  background: linear-gradient(#fff 75%, #ededed 25%);
+}
+
+/* * * * * * * * *
+* Work
+* * * * * * * * */
+.work {
+  position: relative;
+  padding: 40px 0 24px;
+
+  &__contents {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto !important;
+
+    &__wrapper {
+      overflow-x: auto;
+      overflow-y: visible;
+    }
+
+  }
+  &__content {
+    width: 80vw;
+    padding-bottom: 40px;
+
+    &:not(:last-of-type) {
+      margin-right: 24px;
+    }
+
+    &:nth-of-type(2) {
+      margin-top: 0;
+    }
+
+    &__image {
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
+
+/* * * * * * * * *
+* florist
+* * * * * * * * */
+.florist {
+  padding: 40px 0;
+
+  &__persons__wrapper {
+    overflow-x: auto;
+    overflow-y: visible;
+  }
+
+  &__persons {
+    display: inline-flex;
+  }
+
+  &__person {
+    width: 80vw;
+  }
+  .florist__person:not(:last-of-type) {
+    margin-right: 24px;
+  }
+  .florist__person__image {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+/* * * * * * * * *
+* Shop information
+* * * * * * * * */
+.shopInformation {
+  padding: 40px 0;
+
+  &__contents {
+    display: block;
+  }
+  &__image,
+  &__table {
+    width: 100%;
+  }
+}
+
+/* * * * * * * * *
+* contact
+* * * * * * * * */
+.contact {
+  padding: 40px 0 64px;
+}
+.btn__contact {
+  width: 280px;
+  padding-left: 50px;
+
+  &::before {
+    left: 45px;
+  }
+  &::after {
+    left: 50px;
+  }
+}
+
