@@ -1,22 +1,4 @@
-/******************************************************************
-
-Stylesheet: 1280px以上のモニタで適用
-
-******************************************************************/
-.travel {
-  &__inner {
-    padding: 50px 150px;
-  }
+.u-content-wrapper {
+  width: calc(100% - 52px);
+  margin: 0 auto;
 }
-.popular {
-  &__item {
-    flex-basis: 23%;
-  }
-}
-.side {
-  display: block;
-}
-
-
-
-
